@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding:0;
+}
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header{
+	background-image:
+	linear-gradient(
+		rgba(0,0,0,.5),
+		rgba(0,0,0,.5)
+		), url("slide-3.jpg"); 
+	height: 800px;
+	display: block;
+	background-size: 100%; 
+	color: #fff;
+} 
+
+							/*TOP HEADER*/
+.top{
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.top ul{
+	padding-left: 50px;
+	padding-top: 25px;
+
+}
+
+.top .section{
+	display: inline-block;
+}
+
+.top li{
+	display: inline-block;
+}
+
+.section h1,
+.section li{
+	font-size: 15px;
+}
+
+.section .nav{
+	padding-left: 250px;
+	word-spacing: 15px;
+}
+
+.nav li:nth-child(2),
+.nav li:last-child{
+	word-spacing: normal;
+}
+
+							/*LOGO*/
+.logo{
+	text-align: center;
+	padding-top: 100px;
+}
+
+.logo img{
+	max-width:50%;
+	max-height:50%;
+}
+
+					/*DESCRIPTION*/
+.description{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.description p{
+	font-weight: lighter;
+	margin-top: 10px;
+	column-span: all;
+}
+
+			/*ABOUT*/
+.about{
+	height: 750px;
+	border-right: 250px solid #F0BA72;
+}
+.content{
+	display:block;
+}
+
+						/*SERVICES*/
+						/*BOXES*/
+.box{
+	font-size: 15px;
+	height: 250px;
+	width: 350px;
+}
+
+.box li{
+	text-decoration: none !important;
+	vertical-align: top;
+	display: inline-block;
+}
+.box span{
+	padding-top: 125px;
+	padding-left: 60px;
+	position: absolute;
+}
