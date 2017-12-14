@@ -2,6 +2,7 @@
 	margin: 0;
 	padding:0;
 }
+
 .wrapper{
 	width: 1200px;
 	margin: 0 auto;
@@ -33,6 +34,7 @@
 
 .top .section{
 	display: inline-block;
+	font-family: 'Nunito', sans-serif;
 }
 
 .top li{
@@ -45,7 +47,7 @@
 }
 
 .section .nav{
-	padding-left: 250px;
+	padding-left: 330px;
 	word-spacing: 15px;
 }
 
@@ -60,10 +62,10 @@
 	padding-top: 100px;
 }
 
-.logo img{
+/*.logo img{
 	max-width:50%;
 	max-height:50%;
-}
+}*/
 
 					/*DESCRIPTION*/
 .description{
@@ -124,6 +126,7 @@
 .contact{
 	border-left: 250px solid #F0BA72;
 	height: 500px;
+	margin:0 auto;
 }
 .column{
 	width: 50%;
