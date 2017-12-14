@@ -90,17 +90,79 @@
 						/*BOXES*/
 .box{
 	font-size: 15px;
-	height: 250px;
-	width: 350px;
 }
 
+.services.wrapper h1{
+	padding-bottom: 50px;
+}
 .box li{
 	text-decoration: none !important;
 	vertical-align: top;
 	display: inline-block;
+	padding-right: 20px;
+	padding-bottom: 20px;
+
 }
 .box span{
 	padding-top: 125px;
 	padding-left: 60px;
 	position: absolute;
+}
+
+.box img{
+	width: 375px;
+	height: 234px;
+}
+
+.box li{
+
+
+}
+
+
+/*CONTACT US*/
+.contact{
+	border-left: 250px solid #F0BA72;
+	height: 500px;
+}
+.column{
+	width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*FOOTERS*/
+.footer-top h1{
+	padding-top: 40px;
+	text-align: center;
+	font-size: 15px;
+	color: #fff;
+}
+.footer-top{
+	height: 100px;
+	background-color:#D8263E;
+}
+
+.footer-bottom{
+	background-color: #363638;
+	height: 200px;
+}
+
+.footer-bottom img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+
+.footer-bottom ul{
+	width: 1000px;
+	margin:0 auto;
+}
+
+.footer-bottom ul{
+	text-decoration-style: none;
 }
