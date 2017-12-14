@@ -23,7 +23,7 @@
 							/*TOP HEADER*/
 .top{
 	padding-left: 50px;
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 .top ul{
@@ -59,7 +59,7 @@
 							/*LOGO*/
 .logo{
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 75px;
 }
 
 /*.logo img{
@@ -140,6 +140,7 @@
 
 /*FOOTERS*/
 .footer-top h1{
+	font-family: 'Nunito Sans', sans-serif;
 	padding-top: 40px;
 	text-align: center;
 	font-size: 15px;
@@ -155,17 +156,42 @@
 	height: 200px;
 }
 
-.footer-bottom img{
-	height: 50px;
-	width: 50px;
+
+.footer-bottom .pic{
+	vertical-align: middle;
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 7px;
+}
+
+.footer-bottom .mage{
 	border-radius: 50%;
+	width:70px;
+	height: 70px;
 }
 
-.footer-bottom ul{
-	width: 1000px;
-	margin:0 auto;
+.footer-bottom p{
+	vertical-align: top;
+	display: inline-block;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: #787878;
 }
 
-.footer-bottom ul{
-	text-decoration-style: none;
+.footer-bottom h1{
+	position: relative;
+	font-size: 10px;
+	color: #fff;
+	font-family: 'Nunito', sans-serif;	
+}
+
+.bottom{
+	margin-left: 500px;
+	padding-top: 66px;
+}
+
+.section .nav{
+	display: inline-block;
+	font-family: 'Nunito', sans-serif;
 }
