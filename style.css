@@ -49,6 +49,15 @@
 .section .nav{
 	padding-left: 330px;
 	word-spacing: 15px;
+	font-weight: 700;
+}
+
+.section .social{
+	padding-left: 450px;
+}
+
+.social li{
+	padding-right: 10px;
 }
 
 .nav li:nth-child(2),
