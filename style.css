@@ -172,14 +172,80 @@
 
 
 /*CONTACT US*/
-.contact div
-{
+.informatio{
+	font-family: 'Nunito Sans', sans-serif;	
+	vertical-align: top;
 	display: inline-block;
+	margin-right:50px; 
+	padding-top: 0px;
+	width: 550px;
+	height:550px;
 }
 
-.contact-image img{
-	width: 550px;
-	height: 550px;
+.informatio h1{
+	margin-bottom: 15px;
+}
+
+.informatio p{
+	padding-bottom:20px;
+	color: #787878;
+}
+
+		/*FORM PROPERTIES*/
+.form-group {
+	width: 534px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.form-group input:last-child{
+	margin-right: 0px;
+}
+.duo {
+    margin-right: 16px;
+    width: 50;
+    float: left;
+}
+
+form{
+	padding-top: 50px;
+}
+
+form input,
+form textarea {
+	margin-bottom: 13px;
+    border: 1px solid #ccc;
+    padding: 15px 10px;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    background: #efefef;
+}
+
+form input{
+	width: 48.5%!important;
+
+}
+
+form textarea{
+	    width: 100%;
+}
+form button {
+    color: #f7f7f7;
+    background: #2E641F;
+    text-decoration: none;
+    padding: 15px 10px;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#shaded{
+	font-size: 13px;
+	font-weight: 300;
+	height: 50px;
+	padding: 15px 0px 0px 15px;
+	color:#fff;
+	background-color: #c5c5c5;
 }
 
 
