@@ -71,11 +71,6 @@
 	padding-top: 75px;
 }
 
-/*.logo img{
-	max-width:50%;
-	max-height:50%;
-}*/
-
 					/*DESCRIPTION*/
 .description{
 	font-family: 'Nunito Sans', sans-serif;
@@ -133,7 +128,123 @@
 	height: 580px;
 }
 						/*SERVICES*/
-						/*BOXES*/
+				/*BOXES*/
+
+li img{
+	display: none;
+}
+
+#one{
+	background-image:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		), url("aluminum-composite-panel-signage.jpg"); 
+	width: 365px;
+	height: 240px;
+}
+
+#two{
+	background:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		),url("build-up-acrylic-signage.jpg");
+	width: 365px;
+	height: 240px;
+}
+
+#three{
+	background:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		),url("build-up-acrylic-and-stainless-signage.jpg");
+	width: 365px;
+	height: 240px;
+}
+
+#four{
+	background-image:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		), url("backwall-indoor-outdoor-directory-signage.jpg"); 
+	width: 365px;
+	height: 240px;
+}
+
+#five{
+	background:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		),url("adhesive-vinyl-on-flex-substrate-signage.jpg");
+	width: 365px;
+	height: 240px;
+}
+
+#six{
+	background:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		),url("frosted-signage-and-dividers.jpg");
+	width: 365px;
+	height: 240px;
+}
+
+#seven{
+	background-image:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		), url("led-signage-and-lighting-system.jpg"); 
+	width: 365px;
+	height: 240px;
+}
+
+#eight{
+	background:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		),url("roof-top-signage.jpg");
+	width: 365px;
+	height: 240px;
+}
+
+#nine{
+	background:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		),url("neon-fabricated-signage.jpg");
+	width: 365px;
+	height: 240px;
+}
+
+#ten{
+	background-image:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		), url("monumental-signage.jpg"); 
+	width: 365px;
+	height: 240px;
+}
+
+#evelen{
+	background:
+	linear-gradient(
+		rgba(47,47,47,.9),
+		rgba(47,47,47,.9)
+		),url("indoor-outdoor-directory-signage.jpg");
+	width: 365px;
+	height: 240px;
+}
+
+		/*box*/
 .box{
 	font-size: 15px;
 }
@@ -147,36 +258,34 @@
 	font-family: 'Nunito Sans', sans-serif;
 }
 .box li{
+	border: .05px red solid;
 	text-decoration: none !important;
 	vertical-align: top;
 	display: inline-block;
-	padding-right: 30px;
-	padding-bottom: 30px;
+	margin-right: 25px;
+	margin-bottom: 25px;
 
 }
 .box span{
-	padding-top: 125px;
-	padding-left: 60px;
+	padding-top: 100px;
+	padding-left: 80px;
 	position: absolute;
 }
 
-.box img{
-	width: 365px;
-	height: 245px;
+span{
+	font-family: 'Nunito', sans-serif;
+	color:#fff;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+	vertical-align: middle;
 }
-
-.box li{
-
-
-}
-
-
 /*CONTACT US*/
 
 .contactt{
 	padding-top: 95px;
-	padding-left: 150px;
-	height: 750px;	
+	padding-left: 165px;
+	height: 650px;	
 }
 
 .contactt-image{
