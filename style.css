@@ -163,20 +163,17 @@
 
 
 /*CONTACT US*/
-.contact{
-	border-left: 525px solid #F0BA72;
-	height: 560px;
-	margin:0 auto;
-}
-.column{
-	width: 50%;
+.contact div
+{
+	display: inline-block;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+.contact-image img{
+	width: 550px;
+	height: 550px;
 }
+
+
 
 /*FOOTERS*/
 .footer-top h1{
@@ -219,11 +216,10 @@
 	color: #787878;
 }
 
-.footer-bottom h1{
-	position: relative;
-	font-size: 10px;
+#footer-name{
+	font-weight: 500;
 	color: #fff;
-	font-family: 'Nunito', sans-serif;	
+	margin-top: 8px;
 }
 
 .bottom{
@@ -231,7 +227,26 @@
 	padding-top: 66px;
 }
 
-.section .nav{
-	display: inline-block;
+.end-footer{
+	text-align: center;
+	font-size: 11px;
+	display: inline-flex;
+	color: red;
 	font-family: 'Nunito', sans-serif;
+}
+
+#right{
+	margin-left: 659px;
+}
+
+
+#line{
+	margin-top: 20px;
+	margin-left: 300px;
+	width: 900px;
+	border-top:1px #787878 solid;
+}
+
+.lining p{
+	margin-top: 10px;
 }
