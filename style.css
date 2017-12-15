@@ -164,6 +164,9 @@ li img{
 	height: 240px;
 }
 
+#three span{
+	margin-left: 10px;
+}
 #four{
 	background-image:
 	linear-gradient(
@@ -204,6 +207,10 @@ li img{
 	height: 240px;
 }
 
+#seven span{
+	margin-left: 20px;
+}
+
 #eight{
 	background:
 	linear-gradient(
@@ -214,6 +221,9 @@ li img{
 	height: 240px;
 }
 
+#eight span{
+	margin-left: 20px;
+}
 #nine{
 	background:
 	linear-gradient(
@@ -224,6 +234,9 @@ li img{
 	height: 240px;
 }
 
+#nine span{
+	margin-left: 25px;
+}
 #ten{
 	background-image:
 	linear-gradient(
@@ -234,6 +247,10 @@ li img{
 	height: 240px;
 }
 
+#ten span{
+	margin-left: 5px;
+}
+
 #evelen{
 	background:
 	linear-gradient(
@@ -242,6 +259,10 @@ li img{
 		),url("indoor-outdoor-directory-signage.jpg");
 	width: 365px;
 	height: 240px;
+}
+
+#eleven span{
+	padding-left:-40px;
 }
 
 		/*box*/
@@ -258,7 +279,6 @@ li img{
 	font-family: 'Nunito Sans', sans-serif;
 }
 .box li{
-	border: .05px red solid;
 	text-decoration: none !important;
 	vertical-align: top;
 	display: inline-block;
