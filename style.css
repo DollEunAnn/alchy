@@ -69,8 +69,13 @@
 
 					/*DESCRIPTION*/
 .description{
+	font-family: 'Nunito Sans', sans-serif;
 	text-align: center;
 	margin-top: 50px;
+}
+
+.description h1{
+	font-weight: 800;
 }
 
 .description p{
@@ -81,13 +86,43 @@
 
 			/*ABOUT*/
 .about{
+	padding-top: 95px;
+	padding-left: 150px;
 	height: 750px;
-	border-right: 250px solid #F0BA72;
-}
-.content{
-	display:block;
+	border-right: 520px solid #F0BA72;	
 }
 
+.information{
+	font-family: 'Nunito Sans', sans-serif;	
+	vertical-align: top;
+	display: inline-block;
+	margin-right:50px; 
+	padding-top: 80px;
+	width: 550px;
+	height:550px;
+}
+
+.information h1{
+	margin-bottom: 15px;
+}
+
+.information p{
+	padding-bottom:20px;
+	color: #787878;
+}
+
+.about-image{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+.about-image img{
+	border:1px #fff solid;
+	padding:10px 10px 10px 0px;
+	width: 580px;
+	height: 580px;
+}
 						/*SERVICES*/
 						/*BOXES*/
 .box{
@@ -95,14 +130,19 @@
 }
 
 .services.wrapper h1{
-	padding-bottom: 50px;
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+.services h1{
+	font-family: 'Nunito Sans', sans-serif;
 }
 .box li{
 	text-decoration: none !important;
 	vertical-align: top;
 	display: inline-block;
-	padding-right: 20px;
-	padding-bottom: 20px;
+	padding-right: 30px;
+	padding-bottom: 30px;
 
 }
 .box span{
@@ -112,8 +152,8 @@
 }
 
 .box img{
-	width: 375px;
-	height: 234px;
+	width: 365px;
+	height: 245px;
 }
 
 .box li{
@@ -124,8 +164,8 @@
 
 /*CONTACT US*/
 .contact{
-	border-left: 250px solid #F0BA72;
-	height: 500px;
+	border-left: 525px solid #F0BA72;
+	height: 560px;
 	margin:0 auto;
 }
 .column{
