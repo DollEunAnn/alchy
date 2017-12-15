@@ -172,11 +172,25 @@
 
 
 /*CONTACT US*/
+
+.contactt{
+	padding-top: 95px;
+	padding-left: 150px;
+	height: 750px;	
+}
+
+.contactt-image{
+	display: inline-block;
+	width: 550px;
+	height: 550px;
+
+}
+
 .informatio{
 	font-family: 'Nunito Sans', sans-serif;	
 	vertical-align: top;
 	display: inline-block;
-	margin-right:50px; 
+	margin-left:100px; 
 	padding-top: 0px;
 	width: 550px;
 	height:550px;
@@ -208,7 +222,7 @@
 }
 
 form{
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 form input,
@@ -224,7 +238,6 @@ form textarea {
 
 form input{
 	width: 48.5%!important;
-
 }
 
 form textarea{
@@ -232,7 +245,7 @@ form textarea{
 }
 form button {
     color: #f7f7f7;
-    background: #2E641F;
+    background: #D8263E;
     text-decoration: none;
     padding: 15px 10px;
     border: none;
