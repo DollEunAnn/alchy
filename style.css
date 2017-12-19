@@ -346,8 +346,14 @@ span{
 	padding-top: 95px;
 	padding-left: 165px;
 	height: 650px;
-	background-color: #F0BA72;
 }
+
+.block{
+	padding-left: 400px;
+	margin-right: 800px;
+	background-color:#F0BA72;
+}
+
 
 .contactt-image{
 	display: inline-block;
@@ -384,44 +390,51 @@ span{
 }
 
 		/*FORM PROPERTIES*/
-.form-group {
-	width: 534px;
-    margin-bottom: 10px;
-    overflow: hidden;
+li{
+	list-style: none;
+
+}
+.forme li{
+	display: inline-block;
+	margin-top:15px;
 }
 
-.form-group input:last-child{
-	margin-right: 0px;
-}
-.duo {
-    margin-right: 16px;
-    width: 50;
-    float: left;
+.forme ul{
+	margin-right:-18px;
 }
 
-form{
-	padding-top: 25px;
+label{
+	color: #787878;
 }
 
-form input,
-form textarea {
-	margin-bottom: 13px;
-    border: 1px solid #ccc;
-    padding: 15px 10px;
-    font-size: 14px;
-    font-family: 'Nunito Sans', sans-serif;
-    box-sizing: border-box;
-    background: #efefef;
+input{
+	border:1px #ccc solid;
+	height: 40px;
+	width: 253.8px;
 }
 
-form input{
-	width: 48.5%!important;
+.forme li:first-child{
+	margin-right:12px; 
 }
 
-form textarea{
-	    width: 100%;
+.forme input:last-child{
+	padding-right: 11.2px;
 }
-form button {
+
+.message-box{
+	margin-top: 10px;
+}
+
+textarea{
+	margin-bottom: 10px;
+	width:100%;
+	height: 100px;
+	overflow: auto;
+	resize: none;
+	border:1px #ccc solid;
+}
+
+button {
     color: #f7f7f7;
     background: #D8263E;
     text-decoration: none;
@@ -438,7 +451,6 @@ form button {
 	color:#fff;
 	background-color: #c5c5c5;
 }
-
 
 
 /*FOOTERS*/
