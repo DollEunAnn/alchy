@@ -343,21 +343,25 @@ span{
 /*CONTACT US*/
 
 .contactt{
-	padding-top: 95px;
+	margin-top: 95px;
 	padding-left: 165px;
+	top: 0px;
 	height: 650px;
 }
 
-.block{
-	padding-left: 400px;
-	margin-right: 800px;
-	background-color:#F0BA72;
+.background-box{
+	position: absolute;
+	width: 475px;
+	height: 650px;
+	background-color: #ffc04d;
+    opacity: 0.8;
+    left:0;
 }
 
 
 .contactt-image{
 	display: inline-block;
-	width: 550px;
+	width: 500px;
 	height: 550px;
 	position: relative;
 
